@@ -44,8 +44,7 @@ use POSIX qw(strftime);
 
 # The following line is needed if "RRDs.pm" was not installed in a
 # directory mentioned in your perl's @INC.
-#use lib '/usr/local/rrdtool/lib/perl';
-use lib '/data/nagios/rrdtool/lib/perl';
+use lib '/usr/local/rrdtool/lib/perl';
 use RRDs;
 
 # The configuration file is expected to be found in the same directory
